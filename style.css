@@ -1,0 +1,73 @@
+body {
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    color: blue;    
+}
+
+
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+form {
+    padding: 30px;
+    background-color: rgb(203, 203, 244);
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 20px 60px rgb(65, 50, 100, 0.08);
+    margin-bottom: 30px;
+}
+
+.instructions {
+    padding: 16px;
+    border: 1px solid ;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 10px;
+    line-height: 20px;
+    color: black;
+}
+
+.submit-button {
+    margin-left: 10px;
+    background: rgb(146, 189, 234);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 24px;
+    width: 150px;
+    font-size: 16px;
+}
+
+.poem {
+    font-family: 16px;
+    background-color: white;
+    padding: 20px;
+    line-height: 2px;
+    box-shadow: 0px 20px 60px rgb(65, 50, 100, 0.08);
+    border-left: 3px solid rgb(146, 189, 234);
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+a {
+    color: rgb(146, 189, 234);
+}
+
