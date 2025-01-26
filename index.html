@@ -7,44 +7,46 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>Welcome to the AI poem generator</h1>
-      </header>
 
-      <main>
-        <div class="form-container">
-          <form id="poem-generator-form">
-            <input
-              type="text"
-              placeholder="Enter the topic of the poem"
-              autofocus
-              required
-              autocomplete="off"
-              class="instruction"
-              id="user-instruction"
-            />
-            <input type="submit" class="submit-button" />
-          </form>
-          <div class="hint">i.e. love, heaven, flower</div>
-        </div>
-        <div class="poem hidden" id="poem"></div>
-      </main>
+    <header>
+      <h1>Welcome to the AI poem generator</h1>
+    </header>
 
-      <footer>
-        This AI project was coded by
-        <a href="https://github.com/MagdalenaB81">Magda</a> and is
-        <a
-          href="https://github.com/MagdalenaB81/AI-Poem-Project"
-          target="blank"
-        >
-          open-sourced</a
-        >
-        on GitHub and is hosted on
-        <a href="https://aienglishpoemgenerator.netlify.app">Netlify</a>
-      </footer>
+    <main>
+    <div class="form-container">
+                    <form id="poem-generator-form">
+                        <input 
+                        type="text" 
+                        placeholder="Enter the topic of the poem" 
+                        autofocus 
+                        required 
+                        autocomplete="off"
+                        class="instruction"
+                        id="user-instruction" />
+                        <input type="submit" class="submit-button"/>
+                    </form>
+                    <div class="hint">i.e. love, heaven, flower</div>
+                </div>
+                <div class="poem hidden" id="poem"></div>
+            </main>
+    </main>
+
+    <footer>
+      This AI project was coded by
+      <a href="https://github.com/MagdalenaB81">Magda</a> and is
+      <a href="https://github.com/MagdalenaB81/AI-Poem-Project" target="blank">
+        open-sourced</a
+      >
+      on GitHub and is hosted on
+      <a href="https://aienglishpoemgenerator.netlify.app">Netlify</a>
+    </footer>
+
     </div>
     <script src="index.js"></script>
   </body>
